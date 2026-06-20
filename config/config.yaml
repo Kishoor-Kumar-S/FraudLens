@@ -1,0 +1,25 @@
+project:
+  name: FraudLens
+  version: "1.0.0"
+  description: Rule-based fraud analytics and detection system
+
+database:
+  host: localhost
+  port: 5432
+  name: fraudlens
+  user: fraud_user
+
+paths:
+  raw_data: data/raw
+  processed_data: data/processed
+
+detection:
+  amount_spike_threshold: 3.0
+  high_frequency_threshold: 10
+  failed_login_threshold: 3
+  odd_hours_start: 0
+  odd_hours_end: 4
+
+dashboard:
+  port: 8501
+  refresh_interval_seconds: 60
