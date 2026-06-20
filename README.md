@@ -1,16 +1,16 @@
-# 🔍 FraudLens — Fraud Analytics & Detection System
+#  FraudLens — Fraud Analytics & Detection System
 
 > A rule-based fraud analytics system built with Python, SQL, PostgreSQL, Pandas, Streamlit, and Power BI to detect suspicious transaction patterns across high-volume financial datasets.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 FraudLens is a **fraud detection and analytics platform** that ingests raw financial transaction data, applies rule-based anomaly detection logic, stores flagged results in PostgreSQL, and surfaces insights through interactive Streamlit and Power BI dashboards.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Raw Transactions (CSV/DB)
@@ -30,7 +30,7 @@ Raw Transactions (CSV/DB)
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 FraudLens/
@@ -64,7 +64,7 @@ FraudLens/
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -77,7 +77,7 @@ FraudLens/
 
 ---
 
-## 🚨 Fraud Detection Rules
+##  Fraud Detection Rules
 
 | Rule | Description |
 |---|---|
@@ -90,7 +90,7 @@ FraudLens/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -142,7 +142,7 @@ streamlit run dashboard/app.py
 
 ---
 
-## 📊 Dashboard Features
+##  Dashboard Features
 
 - **Fraud Trend Analysis** — Daily/weekly flagged transaction counts
 - **Suspicious Accounts** — High-risk customer leaderboard
@@ -152,7 +152,7 @@ streamlit run dashboard/app.py
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 ```bash
 pytest tests/ -v
@@ -160,7 +160,7 @@ pytest tests/ -v
 
 ---
 
-## 🔑 Key Highlights
+##  Key Highlights
 
 - ✅ **Rule-based anomaly detection** across 6 fraud signal types
 - ✅ **Optimized SQL window functions** for customer-level trend monitoring
@@ -170,7 +170,7 @@ pytest tests/ -v
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
